@@ -5,7 +5,6 @@
  */
 
 // @lc code=start
-class Solution {
     func firstMissingPositive(_ nums: [Int]) -> Int {
         var dict = Dictionary<Int,Int>();
         let n = nums.count;
@@ -22,6 +21,5 @@ class Solution {
 
         return n + 1;
     }
-}
 // @lc code=end
 
