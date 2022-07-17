@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug swift_leetcode",
+            "program": ".build/debug/swift_leetcode",
+            "args": [],
+            "cwd": "${workspaceFolder:swift_leetcode}",
+            "preLaunchTask": "swift: Build Debug swift_leetcode"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Release swift_leetcode",
+            "program": ".build/release/swift_leetcode",
+            "args": [],
+            "cwd": "${workspaceFolder:swift_leetcode}",
+            "preLaunchTask": "swift: Build Release swift_leetcode"
+        }
+    ]
+}
